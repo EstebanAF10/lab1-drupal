@@ -1,0 +1,22 @@
+uuid: 41c4d7aa-3c7d-4984-89e6-5ca874f253ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.carrera
+id: node.carrera.promote
+field_name: promote
+entity_type: node
+bundle: carrera
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

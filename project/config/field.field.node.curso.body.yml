@@ -1,0 +1,23 @@
+uuid: b48ee82f-abea-48a9-b772-16cff87ac8de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.curso
+  module:
+    - text
+id: node.curso.body
+field_name: body
+entity_type: node
+bundle: curso
+label: 'Descripción del Curso'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

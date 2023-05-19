@@ -1,0 +1,18 @@
+uuid: bb80ee88-3758-4046-9aa6-824de8d250e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.curso
+id: node.curso.title
+field_name: title
+entity_type: node
+bundle: curso
+label: 'Nombre del curso'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
